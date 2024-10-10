@@ -1,0 +1,18 @@
+<div class="profile-container">
+    <mat-card>
+      <img mat-card-image [src]="profiles[currentProfileIndex]?.image" alt="Profile Image" />
+      <mat-card-content>
+        <div class="profile-details">
+          <h3>{{ profiles[currentProfileIndex]?.name }}</h3>
+          <p>Age: {{ profiles[currentProfileIndex]?.age }}</p>
+          <p>Role: {{ profiles[currentProfileIndex]?.role }}</p>
+          <p>Place: {{ profiles[currentProfileIndex]?.place }}</p>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button class="yes-button" (click)="swipeRight()">Yes</button>
+        <button mat-button class="no-button" (click)="swipeLeft()">No</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  

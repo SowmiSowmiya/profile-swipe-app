@@ -1,0 +1,31 @@
+[
+    {
+      "name": "John Doe",
+      "age": 30,
+      "role": "Software Engineer",
+      "place": "New York",
+      "image": "assets/images/hero.jfif"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 28,
+      "role": "Designer",
+      "place": "Los Angeles",
+      "image": "assets/images/herione.jfif"
+    },
+    {
+      "name": "Rashmika Mandanna",
+      "age": 26,
+      "role": "Actress",
+      "place": "Bangalore",
+      "image": "assets/images/rashmika.jfif"
+    },
+    {
+      "name": "Tamannaah Bhatia",
+      "age": 33,
+      "role": "Actress",
+      "place": "Hyderabad",
+      "image": "assets/images/tamana.jfif"
+    }
+  ]
+  

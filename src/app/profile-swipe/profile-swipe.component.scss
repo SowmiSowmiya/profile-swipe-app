@@ -1,0 +1,79 @@
+.profile-container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    flex-direction: column;   /* Stack items vertically */
+    padding: 20px;           /* Add padding to prevent content from touching the edges */
+    overflow: hidden;        /* Prevent overflow */
+  }
+  
+  mat-card {
+    width: 100%;             /* Use full width on small screens */
+    max-width: 250px;       /* Set a maximum width for the card */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px 0;         /* Margin for spacing */
+  }
+  
+  mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title */
+  }
+  
+  .profile-avatar {
+    width: 50px;            /* Adjusted size */
+    height: 50px;           /* Adjusted size */
+    border-radius: 50%;
+  }
+  
+  mat-card-image {
+    height: 180px;          /* Set height for the image */
+    width: 100%;            /* Make the image responsive */
+    object-fit: cover;      /* Maintain aspect ratio */
+    border-radius: 10px;
+  }
+  
+  .profile-details {
+    margin: 10px 0;        /* Spacing around details */
+  }
+  
+  .profile-details p {
+    margin: 5px 0;         /* Spacing between detail items */
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: space-evenly; /* Even spacing for buttons */
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  .yes-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .no-button {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 600px) {
+    mat-card {
+      max-width: 90%; /* Allow more width on smaller screens */
+    }
+  
+    .profile-avatar {
+      width: 40px;     /* Smaller avatar size for mobile */
+      height: 40px;    /* Smaller avatar size for mobile */
+    }
+  
+    mat-card-image {
+      height: 150px;   /* Adjust image height for mobile */
+    }
+  }
+  
